@@ -1,0 +1,28 @@
+<<time complexity>>
+단순 연결 리스트 : O(n)
+원형 연결 리스트 : O(1)
+팩토리얼 순환 반복 : O(n)
+피보나치 수열 순환  : O(2^n)
+피보나치 수열 반복 : O(n)
+x의 n승 순환 : O(log2)
+x의 n승 반복 : O(n)
+하노이 타워 : O(2^n)
+이진 트리 순회 : O(n)
+이진 탐색 트리(탐색, 삽입, 삭제): (평균)O(logn) => 완전 이진 (최악)O(n) => 경사
+삽입 정렬 : (평균)O(n^2) (최고)O(n)
+선택 / 버블 : O(n^2)
+퀵 정렬 : (평균)O(nlogn) (최악)O(n^2)
+히프 / 합병 : O(nlogn)
+기수 : O(dn)
+DFS / BFS : (인접 리스트)O(V+E) (인접 행렬)O(V^2)
+kruskal : O(ElogE)(=O(ElogV))
+prim : O(n^2)
+prim 인접 리스트 O(ElogV)
+dijkstra : O(n^2)
+해싱 : O(1)~O(n)
+
+<<Space Complexity>>
+팩토리얼 순환 : O(n)
+팩토리얼 반복 : O(1)
+피보나치 순환 : O(n)
+피보나치 반복 : O(1)
