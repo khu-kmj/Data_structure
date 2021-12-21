@@ -1,0 +1,16 @@
+알고리즘
+1) 간선의 가중치를 오름차순으로 정렬한다.
+2) 선택한 간선이 사이클 형성이 되는지를 검사한다.
+3) 사이클 형성이 되지 않는 다면 MST에 추가한다.
+4) |V|-1개의 간선이 추가된다면 종료한다.
+
+int Find(int n) {
+	if (parent[n] == n) return n; // 최종 부모 노드
+	return parent[n] = Find(parent[n]); // 루트가 아니면 부모를 타고 올라간다. 	
+}					  올라가면서 값 갱신 }
+void Union(int u, int v) {
+	int uRoot = Find(u);
+	int vRoot = Find(v);
+	if (uRoot != vRoot) // 서로소 집합이라면
+		parent[uRoot] = vRoot; // a의 루트를 b에 연결한다.
+}
