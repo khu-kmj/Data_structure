@@ -12,14 +12,14 @@ Using C language
 
 (5) Heap
 
-(6) Tree
+(6) Binary Search Tree
 
-(7) Binary Search Tree
+(7) BFS, DFS
 
-(8) Sort
+(8) Minimum spanning tree
 
-(9) BFS, DFS
+(9) Dijkstra
 
-(10) Dijkstra
+(10) Sort
 
 (11) Hashing
